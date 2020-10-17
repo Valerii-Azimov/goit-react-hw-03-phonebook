@@ -1,0 +1,10 @@
+.ContactFinder{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    font-weight: normal;
+}
+
+.ContactFinder-input{
+    width: 200px;
+}
