@@ -35,6 +35,7 @@ export default class AddForm extends Component {
             onChange={this.handleNameChange}
             className="AddContactsForm__Name"
             name="name"
+            required
           ></input>
         </label>
 
@@ -46,6 +47,7 @@ export default class AddForm extends Component {
             onChange={this.handleNumberChange}
             className="AddContactsForm__Number"
             name="number"
+            required
           ></input>
         </label>
 
